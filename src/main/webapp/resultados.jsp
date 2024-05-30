@@ -33,7 +33,7 @@
             d = ((vi + vf) / 2) * t;
             double dis=d*1000;
             out.println("La distancia recorrida es: " + d + " metros");
-            out.println("La distancia recorrida es: " + d + " Kilometros");
+            out.println("La distancia recorrida es: " + dis + " Kilometros");
         } else if (vi != null && vf != null && d != null) {
             // Calcular tiempo
             t = (2 * d) / (vi + vf);
